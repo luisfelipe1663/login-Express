@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Cadastro</title>
+    
+</head>
+<body>
+    
+    <main class="container">
+        <section class="card">
+            <h1>Cadastro</h1>
+            <p>Crie uma conta para acessar o sistema</p>
+            <form action="cadastro.html" method="POST"
+            autocomplete="off">
+            <label for="nome">Nome</label>
+            <input type="text" name="nome" id="nome" placeholder="Digite seu nome" required>
+            <label for="email">E-mail</label>
+            <input type="email" name="email" id="email" placeholder="Digite seu e-mail" required>
+            <label for="senha">Senha</label>
+            <input type="password" name="senha" id="senha"
+            placeholder="Digite sua senha"
+            required>
+            <button type="submit">Cadastre-se</button>
+            </form>
+            <p class="texto-link">
+                ja tem cadastro?
+                <a href="login.html">Fazer Login</a>
+            </p>
+        </section>
+    </main>
+</body>
+</html>
